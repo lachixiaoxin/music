@@ -10,7 +10,7 @@
 	import tab from './components/tab/tab.vue'
 	export default{
 		components:{
-			MHeader,
+			"m-header":MHeader,
 			tab
 		}
 	}

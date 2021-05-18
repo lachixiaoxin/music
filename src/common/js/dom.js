@@ -19,6 +19,7 @@ export function getData(el, name, val) { //设置和获取自定义数据
 }
 let elementStyle = document.createElement('div').style;
 let vendor = (() => {
+    // 添加样式名称的时候加上前缀
     let transformNames = {
         webkit: 'webkitTransform',
         Moz: 'MozTransform',
